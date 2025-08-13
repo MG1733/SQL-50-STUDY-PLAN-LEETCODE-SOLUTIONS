@@ -1,11 +1,15 @@
 
 -- Letters which are capitalized here indicates the inbuilt keywords in SQL
-
+  
 SELECT 
-product_id 
+name 
 FROM 
-Products
+Customer
 WHERE 
-low_fats='Y' 
-AND 
-recyclable='Y';
+referee_id != 2
+OR 
+referee_id IS NULL;
+
+
+
+
