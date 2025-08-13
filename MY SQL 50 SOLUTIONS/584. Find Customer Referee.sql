@@ -6,9 +6,9 @@ name
 FROM 
 Customer
 WHERE 
-referee_id != 2
+referee_id != 2         -- Gives odd referee_id rows 
 OR 
-referee_id IS NULL;
+referee_id IS NULL;     -- Gives rows with NULL values
 
 
 

@@ -6,6 +6,6 @@ product_id
 FROM 
 Products
 WHERE 
-low_fats='Y' 
+low_fats='Y'               -- AND works if both are satisfied
 AND 
 recyclable='Y';
