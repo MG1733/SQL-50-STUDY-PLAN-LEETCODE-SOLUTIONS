@@ -1,7 +1,7 @@
 
 -- Letters which are capitalized here indicates the inbuilt keywords in SQL
 
--- UNION Joins Each salary categories removing duplicates
+-- UNION Joins Each salary categories and removing duplicates
 SELECT 
 'Low Salary' AS category,
 SUM(CASE WHEN income < 20000 THEN 1 ELSE 0 END) AS accounts_count 
